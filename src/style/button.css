@@ -1,0 +1,10 @@
+.btn_style {
+  width: 350px;
+  height: 60px;
+  background-color: #34b05f;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
