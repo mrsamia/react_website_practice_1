@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  padding-top: 40px;
 }
 
 .mrgin_padding {
@@ -14,4 +14,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.first_part {
+  background-color: #f7f2fd;
+}
+.second_part {
+  background-image: linear-gradient(
+    to right,
+    rgba(77, 33, 33, 0),
+    rgb(207, 129, 129)
+  );
+}
+
+.third_part {
+  background-image: linear-gradient(
+    to right,
+    rgba(192, 129, 129, 0),
+    rgb(59, 192, 88)
+  );
 }

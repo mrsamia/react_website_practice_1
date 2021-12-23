@@ -1,0 +1,21 @@
+{
+    "title": "Benefits for parents",
+    "subTitle": "",
+    "items": [
+        {
+            "img": "Pic3.jpg",
+            "title": "Quis duis commodo voluptate ipsum voluptate incididunt consectetur et deserunt pariatur incididunt.",
+            "subTitle": "Lorem laborum voluptate aliqua minim elit ad tempor officia sint laborum. Eu ad cupidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        },
+        {
+            "img": "Pic1.jpg",
+            "title": "Quis duis commodo voluptate ipsum voluptate incididunt consectetur et deserunt pariatur incididunt.",
+            "subTitle": "Lorem laborum voluptate aliqua minim elit ad tempor officia sint laborum. Eu ad cupidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        },
+        {
+            "img": "Pic3.jpg",
+            "title": "Quis duis commodo voluptate ipsum voluptate incididunt consectetur et deserunt pariatur incididunt.",
+            "subTitle": "Lorem laborum voluptate aliqua minim elit ad tempor officia sint laborum. Eu ad cupidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        }
+    ]
+}
