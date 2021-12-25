@@ -3,7 +3,7 @@ import react from "react";
 import Feature_item from "./Feature_item";
 import Header from "./Header";
 
-function Feature({ title = "", subtitle = "", items = [], className = "" }) {
+function Feature({ title = "", subtitle = "", itmsAb = [], className = "" }) {
   return (
     <div className={className}>
       <div className="container">
@@ -12,7 +12,7 @@ function Feature({ title = "", subtitle = "", items = [], className = "" }) {
           <h3 className="mrgin_padding">{subtitle}</h3>
         </div>
         <div className="row mrgin_padding ">
-          {items.map((item) => (
+          {itmsAb.map((item) => (
             <div className="col-4">
               <Feature_item
                 image={item.img}

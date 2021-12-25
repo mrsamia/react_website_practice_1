@@ -8,6 +8,8 @@ import Input from "./component/Input";
 import Feature from "./component/Feature";
 import HIW from "./data/HIW.json";
 import BFP from "./data/BFP.json";
+import Fcopy_itm from "./component/Fcopy_itm";
+import Fcopy from "./component/Fcopy";
 
 function App() {
   return (
@@ -46,7 +48,7 @@ function App() {
       <Feature
         title={HIW.title}
         subtitle={HIW.subTitle}
-        items={HIW.items}
+        itmsAb={HIW.items}
         className="second_part mb-4"
       />
 
@@ -56,6 +58,8 @@ function App() {
         items={BFP.items}
         className="third_part"
       />
+
+      <Fcopy ttle={HIW.title} sbtitle={HIW.subTitle} items={HIW.items} />
     </div>
   );
 }
