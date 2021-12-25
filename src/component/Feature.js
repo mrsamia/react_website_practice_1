@@ -8,10 +8,10 @@ function Feature({ title = "", subtitle = "", items = [], className = "" }) {
     <div className={className}>
       <div className="container">
         <div className="mrgin_padding text-center">
-          <Header header={title} />
-          <h3>{subtitle}</h3>
+          <Header className="mrgin_padding" header={title} />
+          <h3 className="mrgin_padding">{subtitle}</h3>
         </div>
-        <div className="row">
+        <div className="row mrgin_padding ">
           {items.map((item) => (
             <div className="col-4">
               <Feature_item

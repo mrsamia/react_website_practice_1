@@ -56,10 +56,6 @@ function App() {
         items={BFP.items}
         className="third_part"
       />
-
-      <Feature title={HIW.title} subtitle={HIW.subTitle} items={HIW.items} />
-
-      <Feature title={HIW.title} subtitle={HIW.subTitle} items={HIW.items} />
     </div>
   );
 }
