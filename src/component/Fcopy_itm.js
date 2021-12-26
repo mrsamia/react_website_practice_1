@@ -1,5 +1,5 @@
-import react from "react";
-import Pic4 from "../images/Pic4.jpg";
+//Its a copy of Feature_item.
+//just for practice.
 
 function Fcopy_itm({ Imge, ttle, sbtitle }) {
   return (

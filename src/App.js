@@ -8,8 +8,9 @@ import Input from "./component/Input";
 import Feature from "./component/Feature";
 import HIW from "./data/HIW.json";
 import BFP from "./data/BFP.json";
-import Fcopy_itm from "./component/Fcopy_itm";
-import Fcopy from "./component/Fcopy";
+import Review_F from "./component/Review_F";
+//import Fcopy_itm from "./component/Fcopy_itm";
+//import Fcopy from "./component/Fcopy";
 
 function App() {
   return (
@@ -63,6 +64,12 @@ function App() {
         itmsAb={BFP.items}
         className="third_part pt-5"
       />
+      <Review_F
+        title="fdgdfghdh"
+        subtitle="sdfjryurfjnyruhfjncv"
+        image={require("./images/Pic4.jpg")}
+      />
+      <Review_F />
     </div>
   );
 }

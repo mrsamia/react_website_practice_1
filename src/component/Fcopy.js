@@ -1,7 +1,9 @@
 import react from "react";
 import Fcopy_itm from "./Fcopy_itm";
 import Header from "./Header";
-//import Pic4 from "../images/Pic4.jpg";
+//Its a copy of Feature.
+//just for practice.
+//another way
 
 function Fcopy({ Imge, ttle = "", sbtitle = "", items = [] }) {
   return (
