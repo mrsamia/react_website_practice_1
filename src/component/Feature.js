@@ -11,9 +11,9 @@ function Feature({ title = "", subtitle = "", itmsAb = [], className = "" }) {
           <Header className="mrgin_padding" header={title} />
           <h3 className="mrgin_padding">{subtitle}</h3>
         </div>
-        <div className="row mrgin_padding ">
+        <div className="row mrgin_padding text-center">
           {itmsAb.map((item) => (
-            <div className="col-4">
+            <div className="col-4 ">
               <Feature_item
                 image={item.img}
                 title={item.title}

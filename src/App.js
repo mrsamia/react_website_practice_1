@@ -39,7 +39,12 @@ function App() {
               </div>
             </div>
             <div className="col-6">
-              <img src={Pic3} height="600px" width="850px" />
+              <img
+                className="rounded"
+                src={Pic3}
+                height="600px"
+                width="850px"
+              />
             </div>
           </div>
         </div>
@@ -49,17 +54,15 @@ function App() {
         title={HIW.title}
         subtitle={HIW.subTitle}
         itmsAb={HIW.items}
-        className="second_part mb-4"
+        className="mt-5 mb-4"
       />
 
       <Feature
         title={BFP.title}
         subtitle={BFP.subTitle}
-        items={BFP.items}
-        className="third_part"
+        itmsAb={BFP.items}
+        className="third_part pt-5"
       />
-
-      <Fcopy ttle={HIW.title} sbtitle={HIW.subTitle} items={HIW.items} />
     </div>
   );
 }
