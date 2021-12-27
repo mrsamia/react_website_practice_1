@@ -65,11 +65,17 @@ function App() {
         className="third_part pt-5"
       />
       <Review_F
-        title="fdgdfghdh"
-        subtitle="sdfjryurfjnyruhfjncv"
-        image={require("./images/Pic4.jpg")}
+        isGoal={false}
+        title="Quis duis incididunt."
+        subtitle="Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        image={require("./images/Pic6.jpg")}
       />
-      <Review_F />
+      <Review_F
+        isGoal={true}
+        title="Quis duis incididunt."
+        subtitle="Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        image={require("./images/Pic6.jpg")}
+      />
     </div>
   );
 }
