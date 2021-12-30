@@ -11,6 +11,7 @@ import BFP from "./data/BFP.json";
 import Review_F from "./component/Review_F";
 //import Fcopy_itm from "./component/Fcopy_itm";
 //import Fcopy from "./component/Fcopy";
+import Review_F_copy from "./component/Review_F_copy";
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function App() {
         subtitle="Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
         image={require("./images/Pic6.jpg")}
       />
+      <Review_F_copy />
     </div>
   );
 }
