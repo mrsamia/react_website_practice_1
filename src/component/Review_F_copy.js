@@ -26,7 +26,7 @@ function Right({ title, subtitle, image }) {
         <div className="col-6 text-center">
           <img src={image} />
         </div>
-        <div className="col-6 d-flex justify-content-end">
+        <div className="col-6 text-center">
           <div>
             <h4>{title}</h4>
           </div>
@@ -38,8 +38,8 @@ function Right({ title, subtitle, image }) {
     </div>
   );
 }
-function Review_F_copy({ isGoal, title, subtitle, image }) {
-  if (isGoal) {
+function Review_F_copy({ condition, title, subtitle, image }) {
+  if (condition) {
     return <Left title={title} subtitle={subtitle} image={image} />;
   }
   return <Right title={title} subtitle={subtitle} image={image} />;

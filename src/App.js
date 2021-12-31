@@ -12,6 +12,7 @@ import Review_F from "./component/Review_F";
 //import Fcopy_itm from "./component/Fcopy_itm";
 //import Fcopy from "./component/Fcopy";
 import Review_F_copy from "./component/Review_F_copy";
+import PrimaryButton from "./component/Buttons";
 
 function App() {
   return (
@@ -78,11 +79,31 @@ function App() {
         image={require("./images/Pic6.jpg")}
       />
       <Review_F_copy
-        isGoal={true}
+        condition={true}
         title="Quis duis incididunt."
         subtitle="Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
         image={require("./images/Pic6.jpg")}
       />
+      <Review_F_copy
+        condition={false}
+        title="Quis duis incididunt."
+        subtitle="Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        image={require("./images/Pic6.jpg")}
+      />
+
+      <div className="container mrgin_padding d-flex align-items-start pt-5 pb-5  ">
+        <Button style={{ height: 50, width: 200 }} name="Buy now" />
+      </div>
+      <div className="container mrgin_padding d-flex align-items-start pt-5 pb-5  ">
+        <Button style={{ height: 40, width: 120 }} name="Buy now" />
+        <PrimaryButton
+          name="Primary button"
+          style={{
+            backgroundColor: "blue",
+            color: "white",
+          }}
+        />
+      </div>
     </div>
   );
 }
