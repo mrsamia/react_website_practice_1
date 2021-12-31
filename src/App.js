@@ -77,7 +77,12 @@ function App() {
         subtitle="Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
         image={require("./images/Pic6.jpg")}
       />
-      <Review_F_copy />
+      <Review_F_copy
+        isGoal={true}
+        title="Quis duis incididunt."
+        subtitle="Lorem laborum voluptate aliqua mpidatat pariatur laboris officia ullamco ipsum non dolore. Deserunt ut dolore officia amet commodo et dolore pariatur sint in nostrud."
+        image={require("./images/Pic6.jpg")}
+      />
     </div>
   );
 }
